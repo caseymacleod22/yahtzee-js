@@ -1,17 +1,22 @@
 function rollDie1() {
-console.log(Math.floor(Math.random() *7))
+const result = (Math.floor(Math.random() *7))
+return result
 }
 function rollDie2() {
-console.log(Math.floor(Math.random() *7))
+const result = (Math.floor(Math.random() *7))
+return result
 }
 function rollDie3() {
-console.log(Math.floor(Math.random() *7))
+const result = (Math.floor(Math.random() *7))
+return result
 }
 function rollDie4() {
-console.log(Math.floor(Math.random() *7))
+const result = (Math.floor(Math.random() *7))
+return result
 }
 function rollDie5() {
-console.log(Math.floor(Math.random() *7))
+const result = (Math.floor(Math.random() *7))
+return result
 }
 
 rollDie1()
