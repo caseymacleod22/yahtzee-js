@@ -5,7 +5,7 @@ console.log(result1)
 
 function rollDie2() {
 const result2 = (Math.floor(Math.random() *7))
-console.log(result2)
+// console.log(result2)
 }
 function rollDie3() {
 const result3 = (Math.floor(Math.random() *7))
