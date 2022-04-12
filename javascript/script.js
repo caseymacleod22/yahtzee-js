@@ -20,6 +20,10 @@ const result5 = (Math.floor(Math.random() *7))
 return document.getElementById('die5').textContent = result5;
 }
 
+function rollDice () {
+    return rollDie1(), rollDie2(), rollDie3(), rollDie4(), rollDie5()
+}
+
 // rollDie1()
 // rollDie2()
 // rollDie3()
