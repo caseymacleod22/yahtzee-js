@@ -1,5 +1,5 @@
-const dice = new array (0, 0, 0, 0, 0)
-const hold = new array (0, 0, 0, 0, 0)
+const dice = [0, 0, 0, 0, 0]
+const hold = [0, 0, 0, 0, 0]
 let turn = 0  
 
 function rollDice() {
