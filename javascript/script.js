@@ -1,6 +1,6 @@
-const dice = [0, 0, 0, 0, 0]
-const hold = [0, 0, 0, 0, 0]
-let turn = 0  
+const dice = []
+const hold = []
+let turn = 1  
 
 function rollDice() {
     if (turn < 3) {
@@ -13,7 +13,7 @@ function rollDice() {
         turn = ++turn
     }
     else {
-        console.log('aint work fam')
+        // console.log('aint work fam')
     }
 }
 
