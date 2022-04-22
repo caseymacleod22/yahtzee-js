@@ -17,7 +17,7 @@ function rollDice() {
     }
 }
 
-// rollDice()
+rollDice()
 
 
 // function rollDie1() {
