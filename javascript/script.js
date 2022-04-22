@@ -13,7 +13,7 @@ function rollDice() {
         turn = ++turn
     }
     else {
-        console.log('aint work fam')
+        // console.log('aint work fam')
     }
 }
 
