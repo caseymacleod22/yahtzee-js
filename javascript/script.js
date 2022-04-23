@@ -11,10 +11,6 @@ function rollDie() {
 
 function throwDice() {
     rollDie()   
-    rollDie()
-    rollDie()
-    rollDie()
-    rollDie()
 }
 
 throwDice()
