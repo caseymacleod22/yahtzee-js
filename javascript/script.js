@@ -3,4 +3,12 @@ function rollDie() {
     console.log(roll)
 }
 
-rollDie()
+function throwDice() {
+    rollDie()
+    rollDie()
+    rollDie()
+    rollDie()
+    rollDie()
+}
+
+throwDice()
