@@ -13,4 +13,4 @@ function throwDice() {
     rollDie()   
 }
 
-// throwDice()
+throwDice()
