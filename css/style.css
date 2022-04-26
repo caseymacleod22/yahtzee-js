@@ -9,4 +9,5 @@ h1 {
 h2 {
     color: violet;
     cursor: pointer;
+    width: 30px;
 }
