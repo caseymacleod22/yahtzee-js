@@ -1,3 +1,5 @@
+let held = []
+
 function rollDie() {
     let roll1 = Math.floor(Math.random() * 6) + 1;
     let roll2 = Math.floor(Math.random() * 6) + 1;
@@ -13,4 +15,12 @@ function throwDice() {
     rollDie()   
 }
 
+function holdDie () {
+    let die = 1
+    held.push(die)
+    console.log(held)
+}
+
+
 throwDice()
+holdDie()
