@@ -23,4 +23,4 @@ function holdDie () {
 
 
 throwDice()
-holdDie()
+// holdDie()
