@@ -20,7 +20,3 @@ function holdDie () {
     held.push(die)
     console.log(held)
 }
-
-
-throwDice()
-holdDie()
