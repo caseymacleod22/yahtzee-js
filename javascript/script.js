@@ -22,5 +22,5 @@ function holdDie () {
 }
 
 
-// throwDice()
+throwDice()
 holdDie()
