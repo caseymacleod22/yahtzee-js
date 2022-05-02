@@ -18,5 +18,5 @@ function throwDice() {
 function holdDie () {
     let die = 1
     held.push(die)
-    // console.log(held)
+    console.log(held)
 }
