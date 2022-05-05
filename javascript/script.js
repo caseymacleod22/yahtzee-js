@@ -12,7 +12,7 @@ function rollDie() {
 }
 
 function throwDice() {
-    // rollDie()   
+    rollDie()   
 }
 
 function holdDie () {
