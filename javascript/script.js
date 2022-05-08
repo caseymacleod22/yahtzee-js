@@ -20,11 +20,3 @@ function holdDie () {
     held.push(die)
     console.log(held)
 }
-
-document.getElementById("die1", "die2", "die3", "die4", "die5").addEventListener("click", function() {
-    if(this.classList.contains("active")) {
-        this.classList.remvove("actve")
-    } else {
-        // this.classList.add("active")
-    }
-})
