@@ -20,3 +20,8 @@ function holdDie () {
     held.push(die)
     console.log(held)
 }
+
+
+function activeClass () {
+    
+}
