@@ -22,6 +22,9 @@ function holdDie () {
 }
 
 
-function activeClass () {
-    
-}
+function addActive() {
+    document.addEventListener('click', function handleClick(event) {
+    event.target.classList.add('active');
+
+    event.target.classList.remove('active');
+  })};
