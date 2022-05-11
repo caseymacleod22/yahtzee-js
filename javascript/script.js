@@ -23,14 +23,13 @@ function holdDie () {
 
 function addClass() {
     let elem = document.getElementById("die1");
-    elem.classList.add("active");
-}
 
-function removeClass() {
-    let elem = document.getElementById("die1");
-    if (elem.hasClass("active")) {
+    if (elem.classList.contains("active")) {
         elem.classList.remove("active")
+    } else {   
+    elem.classList.add("active");
 }}
+
 
 function addActive() {
     document.addEventListener('click', function handleClick(event) {
