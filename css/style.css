@@ -11,3 +11,7 @@ h2 {
     cursor: pointer;
     width: 30px;
 }
+
+.active {
+    color: black;
+}

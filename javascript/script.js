@@ -26,6 +26,12 @@ function addClass() {
     elem.classList.add("active");
 }
 
+function removeClass() {
+    let elem = document.getElementById("die1");
+    if (elem.hasClass("active")) {
+        elem.classList.remove("active")
+}}
+
 function addActive() {
     document.addEventListener('click', function handleClick(event) {
     event.target.classList.add('active');
