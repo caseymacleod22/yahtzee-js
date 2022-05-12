@@ -15,25 +15,11 @@ function throwDice() {
     rollDie()   
 }
 
-function holdDie () {
-    let die = 1
-    held.push(die)
-    console.log(held)
-}
-
 function addClass() {
-    let elem = document.getElementById("die1");
+    let elem = document.getElementById("die2");
 
     if (elem.classList.contains("active")) {
         elem.classList.remove("active")
     } else {   
     elem.classList.add("active");
 }}
-
-
-function addActive() {
-    document.addEventListener('click', function handleClick(event) {
-    event.target.classList.add('active');
-
-    event.target.classList.remove('active');
-  })};
