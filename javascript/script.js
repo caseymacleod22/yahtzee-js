@@ -23,4 +23,4 @@ function addClass() {
     } else {   
     elem.classList.add("active");
 }}
- console.log('testing')
+//  console.log('testing')
