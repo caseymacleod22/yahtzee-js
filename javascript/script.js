@@ -29,7 +29,7 @@ $(document).ready(function () {
     //this will attach the class to every target 
     $("h2").on('click', function (event) {
         $target = $(event.target);   
-           $target.addClass('active');
+           $target.toggleClass('active');
        });
 
    })
