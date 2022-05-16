@@ -27,7 +27,7 @@ function throwDice() {
 $(document).ready(function () {
 
     //this will attach the class to every target 
-    $("h2").on('click', function (event) {
+    $(".dice-roll").on('click', function (event) {
         $target = $(event.target);   
            $target.toggleClass('active');
        });
