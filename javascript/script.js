@@ -15,15 +15,6 @@ function throwDice() {
     rollDie()   
 }
 
-// function addClass() {
-//     let elem = document.getElementById("die2");
-
-//     if (elem.classList.contains("active")) {
-//         elem.classList.remove("active")
-//     } else {   
-//     elem.classList.add("active");
-// }}
-
 $(document).ready(function () {
 
     //this will attach the class to every target 
