@@ -9,14 +9,12 @@ function rollDie() {
 
     if ($("#die1").hasClass("active")) {
         return roll1 = $('die1').text(), document.getElementById('die2').textContent = roll2, document.getElementById('die3').textContent = roll3, document.getElementById('die4').textContent = roll4, document.getElementById('die5').textContent = roll5
-    } else if ($("#die2").hasClass("active")) {
-        return roll1 = $('die1').text(), roll2 = $('die2').text(), document.getElementById('die3').textContent = roll3, document.getElementById('die4').textContent = roll4, document.getElementById('die5').textContent = roll5
     } else {
     return document.getElementById('die1').textContent = roll1, document.getElementById('die2').textContent = roll2, document.getElementById('die3').textContent = roll3, document.getElementById('die4').textContent = roll4, document.getElementById('die5').textContent = roll5
 }}
 
 function throwDice() {
-    rollDie()   
+    // rollDie()   
 }
 
 $(document).ready(function () {
