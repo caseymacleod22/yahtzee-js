@@ -14,7 +14,7 @@ function rollDie() {
 }}
 
 function throwDice() {
-    // rollDie()   
+    rollDie()   
 }
 
 $(document).ready(function () {
