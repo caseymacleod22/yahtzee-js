@@ -1,4 +1,4 @@
-let held = []
+// let held = []
 
 function rollDie() {
     let roll1 = Math.floor(Math.random() * 6) + 1;
